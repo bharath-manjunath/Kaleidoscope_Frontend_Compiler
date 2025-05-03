@@ -34,3 +34,48 @@ entry:
   %multmp = fmul double %b, %b
   ret double %multmp
 }
+```
+
+## Run it locally ...!
+### 📥 Clone the Repository
+
+```bash
+git clone https://github.com/your-username/llvm-toy-compiler.git
+cd llvm-toy-compiler
+```
+
+### ⚙️ Prerequisites
+
+Ensure the following are installed on your system:
+
+- **macOS** (recommended)
+- **Homebrew** (for macOS)
+- **LLVM** (version ≥ 13)
+- **Clang++** or **g++** (with C++17 support)
+
+- Install LLVM
+```bash
+brew install llvm
+```
+
+- Add LLVM to Your Environment
+
+- Install Dependencies
+
+### 🛠️ Build the Compiler
+
+#### Using `clang++`
+```bash
+clang++ -std=c++17 main.cpp lexer.cc codegen.cc -o toy_compiler 
+```
+
+#### Or using `g++`
+```bash
+g++ -std=c++17 main.cpp lexer.cc codegen.cc -o toy_compiler 
+```
+
+### 🚀 Run the Compiler
+After building, run the executable:
+```bash
+./toy_compiler
+```
