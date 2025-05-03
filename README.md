@@ -40,8 +40,7 @@ entry:
 ### 📥 Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/llvm-toy-compiler.git
-cd llvm-toy-compiler
+git clone https://github.com/your-username/Kaleidoscope_Frontend_Compiler.git
 ```
 
 ### ⚙️ Prerequisites
