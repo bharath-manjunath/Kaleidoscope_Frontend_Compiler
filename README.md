@@ -73,7 +73,7 @@ clang++ -std=c++17 main.cpp lexer.cc codegen.cc -o toy_compiler
 g++ -std=c++17 main.cpp lexer.cc codegen.cc -o toy_compiler 
 ```
 
-### 🚀 Run the Compiler
+### 🚀 Run the Executable
 After building, run the executable:
 ```bash
 ./toy_compiler
